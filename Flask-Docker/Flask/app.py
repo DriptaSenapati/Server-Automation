@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Welcome to new world 2"
+    return "Welcome to new world"
 
 if __name__ == '__main__':
     app.run(debug=True)
